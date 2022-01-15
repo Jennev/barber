@@ -1,1 +1,9 @@
-@import 'vendors/_bootstrap'
+/* components */
+
+@import 'components/buttons';
+/* layout */
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/main';
+/*vendors */
+@import 'vendors/_bootstrap';
