@@ -1,1 +1,42 @@
-:root{--white: #FFF;--platinum: #E8E8e8 ;--light-gray: #D1D1D1;--fuzzy-wuzzy: #E56353;--ruddy-pink: #D76C69;--spanish-pink: #ECBCBA;--eerie-black: #121619;--raisin-black: #222323;--nickel: #6C6E70}h1{color:var(--fuzzy-wuzzy)}
+/* abstracts */
+:root {
+  --white: #FFF;
+  --platinum: #E8E8e8 ;
+  --light-gray: #D1D1D1;
+  --fuzzy-wuzzy: #E56353;
+  --ruddy-pink: #D76C69;
+  --spanish-pink: #ECBCBA;
+  --eerie-black: #121619;
+  --raisin-black: #222323;
+  --nickel: #6C6E70;
+}
+
+/* base */
+h1 {
+  position: absolute;
+  z-index: 1;
+  color: var(--white);
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 900;
+  font-size: 70px;
+  text-align: center;
+}
+
+/* components */
+/* layout */
+.logo {
+  width: 90px;
+}
+
+#post-image {
+  background-image: url("/assets/img/post-image.jpg") no-repeat 0;
+}
+
+#post-image .post-img {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+/*vendors */
