@@ -1,9 +1,13 @@
-/* components */
+/* abstracts */
+@import 'abstracts/variables';
 
+/* components */
 @import 'components/buttons';
+
 /* layout */
 @import 'layout/footer';
 @import 'layout/header';
 @import 'layout/main';
+
 /*vendors */
 @import 'vendors/_bootstrap';
