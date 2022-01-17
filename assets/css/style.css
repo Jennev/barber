@@ -25,6 +25,10 @@ h1 {
 
 /* components */
 /* layout */
+#footer {
+  background-color: var(--raisin-black);
+}
+
 .logo {
   width: 90px;
 }
@@ -37,6 +41,11 @@ h1 {
   width: 100%;
   position: relative;
   display: inline-block;
+}
+
+#page {
+  background-color: var(--nickel);
+  height: 30px;
 }
 
 /*vendors */
