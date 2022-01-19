@@ -21,6 +21,13 @@ h1 {
   font-weight: 900;
   font-size: 70px;
   text-align: center;
+  margin-top: 25%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.date {
+  color: var(--nickel);
 }
 
 /* components */
@@ -31,6 +38,10 @@ h1 {
 
 .logo {
   width: 90px;
+}
+
+.navbar {
+  background-color: var(--eerie-black);
 }
 
 #post-image {
@@ -49,3 +60,6 @@ h1 {
 }
 
 /*vendors */
+.pagination {
+  border-radius: 300px;
+}
