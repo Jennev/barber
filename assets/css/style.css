@@ -78,11 +78,22 @@ h1 {
 }
 
 #page {
-  background-color: var(--nickel);
-  height: 30px;
+  background-color: var(--light-gray);
+  height: 180px;
 }
 
 /*vendors */
+.naomi .card {
+  border: none;
+}
+
+.naomi .row {
+  padding: 20px;
+  border: none;
+}
+
 .pagination {
-  border-radius: 300px;
+  display: inline-flex;
+  padding-left: 40%;
+  margin-top: 5%;
 }
