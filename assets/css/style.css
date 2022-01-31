@@ -95,15 +95,20 @@ a {
 }
 
 .logo {
-  width: 90px;
+  width: 80px;
 }
 
 .navbar {
   background-color: var(--eerie-black);
 }
 
-.navbar a:active {
-  color: var();
+.navbar a {
+  color: var(--white);
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  color: var(--fuzzy-wuzzy);
 }
 
 #post-image {
