@@ -102,6 +102,10 @@ a {
   background-color: var(--eerie-black);
 }
 
+.navbar a:active {
+  color: var();
+}
+
 #post-image {
   background-image: url("/assets/img/post-image.jpg") no-repeat 0;
 }
