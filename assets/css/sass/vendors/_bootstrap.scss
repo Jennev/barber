@@ -21,6 +21,7 @@
     
     .page-link {
         color: var(--raisin-black);
+       
     }
 
     #page-text1 {
@@ -32,6 +33,10 @@
     #page-text2 {
         border-bottom-right-radius: 50px;
         border-top-right-radius: 50px;
+    }
+    a:hover{
+        color: var(--white);
+        background-color: var(--nickel);
     }
 
 }

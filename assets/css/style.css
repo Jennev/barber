@@ -151,3 +151,8 @@ a {
   border-bottom-right-radius: 50px;
   border-top-right-radius: 50px;
 }
+
+.pagination a:hover {
+  color: var(--white);
+  background-color: var(--nickel);
+}
