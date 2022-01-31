@@ -111,6 +111,10 @@ a {
   color: var(--fuzzy-wuzzy);
 }
 
+.navbar .navbar-toggler-icon {
+  color: violet;
+}
+
 #post-image {
   background-image: url("/assets/img/post-image.jpg") no-repeat 0;
 }
@@ -123,7 +127,7 @@ a {
 
 #page {
   background-color: var(--light-gray);
-  height: 180px;
+  height: 100px;
 }
 
 /*vendors */
@@ -144,7 +148,7 @@ a {
 .pagination {
   font-family: 'roboto';
   font-weight: 300;
-  padding-top: 60px;
+  padding-top: 30px;
 }
 
 .pagination .page-link {
