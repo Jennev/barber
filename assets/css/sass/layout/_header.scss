@@ -1,20 +1,10 @@
 .logo {
     width: 80px;
 }
-
-.navbar {
-    a {
-        color: var(--white);
-        font-size: 16px;
-    }
-    a:hover{
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-size: 16px;
+    &:hover {
         color: var(--fuzzy-wuzzy);
     }
-    
-   
-
-}
-
-.navbar-light .navbar-toggler {
-    color: rgb(82, 2, 82);
 }
