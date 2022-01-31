@@ -11,6 +11,10 @@
   --nickel: #6C6E70;
 }
 
+.bg-nav {
+  background-color: var(--eerie-black);
+}
+
 /* base */
 h1 {
   position: absolute;
@@ -98,10 +102,6 @@ a {
   width: 80px;
 }
 
-.navbar {
-  background-color: var(--eerie-black);
-}
-
 .navbar a {
   color: var(--white);
   font-size: 16px;
@@ -111,8 +111,8 @@ a {
   color: var(--fuzzy-wuzzy);
 }
 
-.navbar .navbar-toggler-icon {
-  color: violet;
+.navbar-light .navbar-toggler {
+  color: #520252;
 }
 
 #post-image {
