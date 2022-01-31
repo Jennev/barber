@@ -1,3 +1,14 @@
 #footer {
-    background-color: var(--raisin-black);
+    background-color: var(--eerie-black);
+    height: 150px;
+
+    .transform {
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        max-width: 50%;
+        text-align: center;
+
+    }
 }

@@ -35,12 +35,37 @@ h1 {
   margin-bottom: 50px;
 }
 
-.texto {
+.texto, .card-text {
   color: var(--nickel);
-  line-height: 50px;
+  line-height: 45px;
   font-family: 'roboto';
   font-weight: 300;
   font-size: 16px;
+  margin-top: 40px;
+}
+
+span {
+  color: var(--fuzzy-wuzzy);
+}
+
+.card-title {
+  font-family: 'Playfair Display';
+  font-weight: 400;
+  font-style: italic;
+  font-size: 30px;
+}
+
+a {
+  color: var(--spanish-pink);
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.card-text {
+  font-size: 14px;
+  margin-top: 0px;
+  line-height: 30px;
 }
 
 /* components */
@@ -56,7 +81,17 @@ h1 {
 
 /* layout */
 #footer {
-  background-color: var(--raisin-black);
+  background-color: var(--eerie-black);
+  height: 150px;
+}
+
+#footer .transform {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 50%;
+  text-align: center;
 }
 
 .logo {
@@ -92,8 +127,27 @@ h1 {
   border: none;
 }
 
+.naomi img {
+  border-radius: 50%;
+  width: 200px;
+}
+
 .pagination {
-  display: inline-flex;
-  padding-left: 40%;
-  margin-top: 5%;
+  font-family: 'roboto';
+  font-weight: 300;
+  padding-top: 60px;
+}
+
+.pagination .page-link {
+  color: var(--raisin-black);
+}
+
+.pagination #page-text1 {
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.pagination #page-text2 {
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
 }

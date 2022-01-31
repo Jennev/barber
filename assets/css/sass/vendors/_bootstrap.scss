@@ -5,13 +5,33 @@
     .row {
         padding: 20px;
         border: none;
+
+    }
+    img {
+        border-radius: 50%;
+        width: 200px;
     }
 
 }
 
 .pagination {
-    display: inline-flex;
-    padding-left: 40%;
-    margin-top: 5%;
+    font-family: 'roboto';
+    font-weight: 300;
+    padding-top: 60px;
     
+    .page-link {
+        color: var(--raisin-black);
+    }
+
+    #page-text1 {
+        border-bottom-left-radius: 50px;
+        border-top-left-radius: 50px;
+    }
+
+
+    #page-text2 {
+        border-bottom-right-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+
 }
