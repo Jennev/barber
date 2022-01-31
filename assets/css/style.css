@@ -34,6 +34,12 @@ h1 {
   margin-right: 20%;
 }
 
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 35px;
+  }
+}
+
 .date {
   color: var(--nickel);
   font-family: 'Playfair Display';
@@ -145,6 +151,19 @@ a {
   width: 200px;
 }
 
+@media screen and (max-width: 576px) {
+  .naomi .card-text {
+    display: none;
+  }
+  .naomi .card-body {
+    text-align: center;
+  }
+  .naomi .img-naomi {
+    display: block;
+    margin: auto;
+  }
+}
+
 .pagination {
   font-family: 'roboto';
   font-weight: 300;
@@ -168,4 +187,14 @@ a {
 .pagination a:hover {
   color: var(--white);
   background-color: var(--nickel);
+}
+
+@media screen and (max-width: 576px) {
+  .page-link {
+    font-size: 16px;
+  }
+  .pagination a:hover {
+    color: var(--white);
+    background-color: var(--eerie-black);
+  }
 }
