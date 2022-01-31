@@ -3,8 +3,6 @@
 }
 
 .navbar {
-    background-color: var(--eerie-black);
-    
     a {
         color: var(--white);
         font-size: 16px;
@@ -13,8 +11,10 @@
         color: var(--fuzzy-wuzzy);
     }
     
-    .navbar-toggler-icon {
-        color: violet;
-    }
+   
 
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(82, 2, 82);
 }
