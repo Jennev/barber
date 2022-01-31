@@ -1,11 +1,16 @@
 .logo {
-    width: 90px;
+    width: 80px;
 }
 
 .navbar {
     background-color: var(--eerie-black);
-    a:active{
-        color: var();
+    
+    a {
+        color: var(--white);
+        font-size: 16px;
     }
-
+    
+    a:hover{
+        color: var(--fuzzy-wuzzy);
+    }
 }
